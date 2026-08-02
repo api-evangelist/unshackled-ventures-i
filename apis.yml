@@ -1,8 +1,24 @@
 aid: unshackled-ventures-i
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unshackled-ventures-i.png
 name: Unshackled Ventures I
-description: Unshackled Ventures I is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Unshackled Ventures is an inception-stage venture capital firm that writes
+  the first check for founders before they have products, traction, or revenue, with a
+  focus on immigrant and international founders. Beyond capital the firm provides an
+  immigration platform that handles founder visas at no cost, a mentorship network of
+  founders and operators, and a fundraising engine for follow-on rounds. It was surfaced
+  in the API Evangelist network as a portfolio entry of 500 Global; it is a venture firm
+  and publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/unshackled-ventures-i/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Venture Capital
+- Pre-Seed
+- Immigrant Founders
+- Startups
+- Investing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/unshackled-ventures-i-domain-security.yml
 - type: Website
   url: https://unshackledvc.com
+- type: Blog
+  url: https://unshackledvc.substack.com/
+- type: LLMsTxt
+  url: llms/unshackled-ventures-i-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,19 @@
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + https://www.unshackledvc.com (no published /llms.txt; probed 404 on 2026-07-21) -->
+# Unshackled Ventures
+
+> Unshackled Ventures is an inception-stage venture capital firm that writes the first check for founders before they have products, traction, or revenue, with a focus on immigrant and international founders. Beyond capital, the firm provides an immigration platform that handles founder visas at no cost, a mentorship network of founders and operators (The Circle), and a fundraising engine connecting portfolio companies to follow-on investors.
+
+Unshackled Ventures is a venture capital firm, not an API provider. It publishes no developer portal, API documentation, or machine-readable API artifacts. This file summarizes the public web surface for agents and LLMs.
+
+## Website
+
+- [Unshackled Ventures](https://www.unshackledvc.com/): Main site — why us, founders, portfolio, team, U-Labs, network, FAQ, and pitch application.
+
+## Blog
+
+- [Unshackled Ventures on Substack](https://unshackledvc.substack.com/): The firm's newsletter and blog.
+
+## Notes
+
+- No public API, developer documentation, or OpenAPI/AsyncAPI artifacts were found as of 2026-07-21.
+- /.well-known/security.txt, /.well-known/openid-configuration, and /llms.txt all returned 404 on the primary host.
