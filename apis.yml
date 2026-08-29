@@ -31,6 +31,9 @@ description: Unshackled Ventures is an inception-stage venture capital firm that
   in the API Evangelist network as a portfolio entry of 500 Global; it is a venture firm
   and publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/unshackled-ventures-i/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It was surfaced in the API Evangelist network as a portfolio entry of 500 Global; it is a venture firm and publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
